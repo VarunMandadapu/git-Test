@@ -1,0 +1,21 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "this is a test directory to learn Git and Node",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm rum lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://v_mandadapu@bitbucket.org/v_mandadapu/git-test.git"
+  },
+  "author": "Varu Mandadapu",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/v_mandadapu/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
